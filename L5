@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Favorite Books</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+    .header-title {
+      color: #FF5A43;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h1 class="text-center header-title mb-4">My Virtual Library</h1>
+    
+    <div class="text-center mb-5">
+      <div class="spinner-border text-info" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <p class="text-info mt-2">Loading latest books...</p>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <div class="card mb-4 shadow-sm border-primary">
+          <div class="card-body text-center">
+            <h4 class="card-title text-primary">Space Adventures</h4>
+            <p class="card-text">Join the crew as they explore the outer edges of the galaxy.</p>
+            <a href="#" class="btn btn-primary">Read Book</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-4">
+        <div class="card mb-4 shadow-sm border-success">
+          <div class="card-body text-center">
+            <h4 class="card-title text-success">Jungle Mystery</h4>
+            <p class="card-text">Discover the hidden secrets of the ancient Amazon rainforest.</p>
+            <a href="#" class="btn btn-success">Read Book</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-4">
+        <div class="card mb-4 shadow-sm border-warning">
+          <div class="card-body text-center">
+            <h4 class="card-title text-warning">Time Travelers</h4>
+            <p class="card-text">A group of friends accidentally travel back to the year 1920.</p>
+            <a href="#" class="btn btn-warning text-white">Read Book</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ul class="pagination justify-content-center mt-4">
+      <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
