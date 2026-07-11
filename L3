@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Containers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f4f4f9;
+      font-family: Arial, sans-serif;
+      padding-top: 20px;
+    }
+    .box {
+      padding: 30px;
+      margin-bottom: 20px;
+      text-align: center;
+      border-radius: 8px;
+    }
+    .fluid-box {
+      background-color: #d1ecf1;
+      border: 3px solid #17a2b8;
+      color: #0c5460;
+    }
+    .fixed-box {
+      background-color: #d4edda;
+      border: 3px solid #28a745;
+      color: #155724;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="box fluid-box">
+      <h2 class="display-4">Fluid Container</h2>
+      <p>I am inside a <code>.container-fluid</code>. I will always stretch to touch the edges of your screen, no matter how wide it gets!</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="box fixed-box">
+      <h2 class="display-4">Fixed Container</h2>
+      <p>I am inside a regular <code>.container</code>. I have a maximum width and leave neat margins on the left and right sides of the screen.</p>
+    </div>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
