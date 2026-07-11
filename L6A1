@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Scrollspy Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    /* Required for Scrollspy to work properly on the body */
+    body {
+      position: relative; 
+    }
+    /* Styling the sections to fill the screen */
+    .section-box {
+      padding-top: 80px; 
+      padding-bottom: 80px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    #about { background-color: #007bff; }
+    #projects { background-color: #28a745; }
+    #contact { background-color: #ffc107; color: black; }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top shadow">
+    <a class="navbar-brand text-warning" href="#">My Developer Page</a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">My Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="about" class="container-fluid section-box text-center">
+    <h1 class="display-3">About Me</h1>
+    <p class="lead mt-3">Hello! I am a student learning how to build awesome interactive websites using Bootstrap 4.</p>
+  </div>
+
+  <div id="projects" class="container-fluid section-box text-center">
+    <h1 class="display-3">My Projects</h1>
+    <p class="lead mt-3">So far, I have built Grid Layouts, Jumbotrons, Card Galleries, and Carousels.</p>
+  </div>
+
+  <div id="contact" class="container-fluid section-box text-center">
+    <h1 class="display-3">Contact Me</h1>
+    <p class="lead mt-3">Scroll back up to see the navbar highlight change automatically!</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
