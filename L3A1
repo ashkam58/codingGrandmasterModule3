@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ocean Explorer Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #e0f7fa;
+      font-family: Arial, sans-serif;
+    }
+    .hero-section {
+      background-color: #006994;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .content-card {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #006994;
+      border-bottom: 2px solid #006994;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid hero-section">
+    <h1 class="display-3">Deep Ocean Explorer</h1>
+    <p class="lead">Dive in and discover the mysteries of the deep blue sea!</p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-12 col-md-8 content-card">
+        <h2>About the Ocean</h2>
+        <p>The ocean covers more than <strong>70%</strong> of the surface of our planet. It is home to millions of species and produces over half of the world's oxygen. Even today, more than 80% of the ocean remains unexplored and unmapped!</p>
+        
+        <h2>Fascinating Marine Life</h2>
+        <ul>
+          <li><strong>Dolphins:</strong> Highly intelligent marine mammals known for their playful behavior.</li>
+          <li><strong>Sea Turtles:</strong> Ancient reptiles that can migrate thousands of miles across the ocean.</li>
+          <li><strong>Coral Reefs:</strong> Underwater ecosystems often called the "rainforests of the sea."</li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="content-card text-center">
+          <h2>Did You Know?</h2>
+          <p>The Pacific Ocean is the largest and deepest of Earth's oceanic divisions. It is larger than all of the Earth's land area combined!</p>
+          <button class="btn btn-info mt-3">Learn More</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
